@@ -189,3 +189,11 @@ ul {
 	margin: 0 3%
 }
 
+.vision {
+	font-size: 30px;
+}
+
+.vision-section, .mission-section, .value-section {
+	display: flex;
+	flex-direction: row;
+}
