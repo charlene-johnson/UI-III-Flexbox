@@ -156,17 +156,25 @@ p {
 .box-boxes {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+
+button {
+	width: 40%;
+	height: 20%;
 }
 
 .boxes {
 	border: 1px solid;
-	width: 30%;
+	width: 40%;
 	background-color: #F4F3F4;
+	padding: 2%;
+	margin: 2%;
 }
 
 .service-facts {
 	display: flex;
+	margin-top: 3%
 }
 
 .bold {
