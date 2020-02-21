@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	margin: 0 200px;
+	width: 60%;
+	margin: 0 auto;
 }
 
 nav {
@@ -74,7 +75,6 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 }
 
 nav a {
@@ -87,18 +87,32 @@ nav a {
 	font-size: 80px;
 	display: flex;
 	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+	margin-bottom: 4%;
+	margin-top: 4%
 }
 
-.first-section h2 {
-	text-align: left;
-	padding: 1%;
+.buttons {
+	font-size: 20px;
+	width: 55%;
+	margin-bottom: 10%
+}
+
+h2 {
 	font-size: 18px;
+}
+
+p {
+	padding-right: 5%;
+	text-align: left;
 }
 
 .first-section {
 	display: flex;
 	text-align: left;
-	justify-content: center;
+	padding: 20px 0;
+	margin-bottom: 20px;
 }
 
 .pic {
@@ -107,18 +121,17 @@ nav a {
 }
 
 .middle-img {
-	width: 88%;
+	width: 100%;
 }
 
 .second-section {
 	display: flex;
 	text-align: left;
-	justify-content: center;
+	padding: 20px 0;
+	margin-bottom: 20px;
 }
 
 .contact {
-	text-align: left;
-	margin-left: 11%;
 	margin-top: 2%;
 }
 
@@ -127,6 +140,44 @@ nav a {
 	margin: 50px 0 90px;
 }
 
-h1 {
-	font-size: 25px;
+.services-header-img {
+	width: 100%;
 }
+
+.second-services {
+	font-size: 30px;
+	margin-top: 2%
+}
+
+.first-paragraph {
+	margin-bottom: 3%	
+}
+
+.box-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.boxes {
+	border: 1px solid;
+	width: 30%;
+	background-color: #F4F3F4;
+}
+
+.service-facts {
+	display: flex;
+}
+
+.bold {
+	border: none;
+	height: 2px;
+	color: black;
+	background-color: black;
+}
+
+ul {
+	list-style-type: square;
+	margin: 0 3%
+}
+
